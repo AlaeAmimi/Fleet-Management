@@ -1,4 +1,12 @@
 {
+  "name": "fleet-management",
+  "version": "1.0.0",
+  "description": "Fleet management REST API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "dotenv": "^18.0.4",
     "express": "^5.2.1",
