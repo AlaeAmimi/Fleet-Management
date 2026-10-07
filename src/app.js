@@ -19,6 +19,8 @@ const trailerRoutes = require("./routes/trailer.routes");
 app.use("/api/trailers", trailerRoutes);
 const tireRoutes = require("./routes/tire.routes");
 app.use("/api/tires", tireRoutes);
+const tripRoutes = require("./routes/trip.routes");
+app.use("/api/trips", tripRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ status: "error", message: "Route not found" });
