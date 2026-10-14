@@ -1,5 +1,6 @@
 const Tire = require("../models/Tire");
 const Truck = require("../models/Truck");
+const { checkTireMaintenance } = require("../services/maintenance.service");
 
 async function createTire(req, res) {
     const { serialNumber, brand, position } = req.body;
@@ -61,6 +62,7 @@ async function updateTire(req, res) {
     if (wearThresholdKm !== undefined) tire.wearThresholdKm = wearThresholdKm;
 
     await tire.save();
+    await checkTireMaintenance(tire);
 
     res.status(200).json({ success: true, tire });
 }

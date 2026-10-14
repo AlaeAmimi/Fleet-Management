@@ -12,6 +12,7 @@ const tripSchema = new mongoose.Schema(
       enum: ["todo", "in_progress", "done"],
       default: "todo",
     },
+    reference: { type: String, unique: true, sparse: true },
     truck: { type: mongoose.Schema.Types.ObjectId, ref: "Truck", required: true },
     trailer: { type: mongoose.Schema.Types.ObjectId, ref: "Trailer", required: true },
     driver: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },

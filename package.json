@@ -14,7 +14,8 @@
     "express": "^5.2.1",
     "joi": "^18.2.9",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.10.2"
+    "mongoose": "^9.10.2",
+    "pdfkit": "^0.20.2"
   },
   "devDependencies": {
     "jest": "^30.5.2",

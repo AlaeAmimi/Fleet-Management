@@ -7,5 +7,4 @@ router.get("/", authenticateToken, getAllTires);
 router.get("/:id", authenticateToken, getTireById);
 router.put("/:id", authenticateToken, requireRole("admin"), updateTire);
 router.patch("/:id/assign", authenticateToken, requireRole("admin"), assignTireToTruck);
-
 module.exports = router;

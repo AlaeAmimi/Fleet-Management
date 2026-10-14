@@ -4,3 +4,12 @@
 // $lookup joins another collection, like a SQL JOIN.
 // $project picks and renames the fields in the output.
 // $sort orders the results.
+
+const Trip = require("../models/Trip");
+
+// TODO: build the eco-performance pipeline here
+async function getDriverEcoPerformance() {
+  return Trip.aggregate([]);
+}
+
+module.exports = { getDriverEcoPerformance };

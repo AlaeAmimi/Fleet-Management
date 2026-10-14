@@ -3,6 +3,9 @@ const Truck = require("../models/Truck");
 const Trailer = require("../models/Trailer");
 const User = require("../models/User");
 const { findConflict } = require("../services/availability.service");
+const { generateTripReference } = require("../services/reference.service");
+const { generateMissionOrderPdf } = require("../services/pdf.service");
+const { checkTruckMaintenance, hasUnhandledAlert } = require("../services/maintenance.service");
 
 async function createTrip(req, res) {
     const {
@@ -38,6 +41,16 @@ async function createTrip(req, res) {
         return res.status(403).json({ success: false, message: "Ce chauffeur est suspendu" });
     }
 
+    // after: if (truck.status === "maintenance") { ... }
+    if (await hasUnhandledAlert("Truck", truckId)) {
+        return res.status(409).json({ success: false, message: "Le camion a une alerte de maintenance non traitée" });
+    }
+
+    // after: if (trailer.status === "maintenance") { ... }
+    if (await hasUnhandledAlert("Trailer", trailerId)) {
+        return res.status(409).json({ success: false, message: "La remorque a une alerte de maintenance non traitée" });
+    }
+
     const conflict = await findConflict({
         truckId, trailerId, driverId, startDate, endDate
     });
@@ -46,6 +59,7 @@ async function createTrip(req, res) {
     }
 
     const trip = await Trip.create({
+        reference: await generateTripReference(),
         departureSite, arrivalSite, cargo,
         plannedStartDate: startDate,
         plannedEndDate: endDate,
@@ -139,12 +153,17 @@ async function recordTripData(req, res) {
         return res.status(403).json({ success: false, message: "Accès refusé : ce n'est pas votre trajet" });
     }
 
+    // Distance already counted on the truck before this update
+    const previousDistance =
+        trip.departureKm !== null && trip.arrivalKm !== null
+            ? trip.arrivalKm - trip.departureKm
+            : 0;
+
     if (departureKm !== undefined) trip.departureKm = departureKm;
     if (arrivalKm !== undefined) trip.arrivalKm = arrivalKm;
     if (fuelVolume !== undefined) trip.fuelVolume = fuelVolume;
     if (remarks !== undefined) trip.remarks = remarks;
 
-    //uodate only if both values are filled
     if (trip.departureKm !== null && trip.arrivalKm !== null) {
         if (trip.arrivalKm <= trip.departureKm) {
             return res.status(400).json({
@@ -152,14 +171,48 @@ async function recordTripData(req, res) {
                 message: "Le kilométrage d'arrivée doit être strictement supérieur au kilométrage de départ"
             });
         }
+
+        // Add only the difference to the truck, then check the thresholds
+        const newDistance = trip.arrivalKm - trip.departureKm;
+        const truck = await Truck.findById(trip.truck);
+        if (truck) {
+            truck.totalKm += newDistance - previousDistance;
+            await truck.save();
+            await checkTruckMaintenance(truck);
+        }
     }
 
     await trip.save();
 
     res.status(200).json({ success: true, trip });
 }
+async function getMissionOrder(req, res) {
+    const trip = await Trip.findById(req.params.id)
+        .populate("truck", "plateNumber brand model")
+        .populate("trailer", "plateNumber type")
+        .populate("driver", "firstName lastName email");
+
+    if (!trip) {
+        return res.status(404).json({ success: false, message: "Trajet introuvable" });
+    }
+
+    // Admin, or the driver assigned to this trip
+    if (req.user.role === "chauffeur" && trip.driver._id.toString() !== req.user.id) {
+        return res.status(403).json({ success: false, message: "Accès refusé" });
+    }
+
+    if (!trip.reference) {
+        return res.status(400).json({ success: false, message: "Ce trajet n'a pas de référence" });
+    }
+
+    const pdf = await generateMissionOrderPdf(trip);
+
+    res.setHeader("Content-Type", "application/pdf");
+    res.setHeader("Content-Disposition", `inline; filename="${trip.reference}.pdf"`);
+    res.send(pdf);
+}
 
 module.exports = {
     createTrip, getAllTrips, getTripById,
-    updateTripStatus, recordTripData
+    updateTripStatus, recordTripData, getMissionOrder
 };
