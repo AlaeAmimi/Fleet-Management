@@ -3,14 +3,7 @@ const Truck = require("../models/Truck");
 const { checkTireMaintenance } = require("../services/maintenance.service");
 
 async function createTire(req, res) {
-    const { serialNumber, brand, position } = req.body;
-
-    if (!serialNumber) {
-        return res.status(400).json({
-            success: false,
-            message: "serialNumber est requis"
-        });
-    }
+    const { serialNumber, brand, position, wearKm, wearThresholdKm, treadDepthMm } = req.body;
 
     const existing = await Tire.findOne({ serialNumber });
     if (existing) {
@@ -20,7 +13,7 @@ async function createTire(req, res) {
         });
     }
 
-    const tire = await Tire.create({ serialNumber, brand, position });
+    const tire = await Tire.create({ serialNumber, brand, position, wearKm, wearThresholdKm, treadDepthMm });
 
     res.status(201).json({ success: true, tire });
 }
@@ -53,13 +46,15 @@ async function updateTire(req, res) {
         return res.status(404).json({ success: false, message: "Pneu introuvable" });
     }
 
-    const { brand, position, state, wearKm, wearThresholdKm } = req.body;
+    const { brand, position, state, archived, wearKm, wearThresholdKm, treadDepthMm } = req.body;
 
     if (brand) tire.brand = brand;
     if (position) tire.position = position;
     if (state) tire.state = state;
+    if (archived !== undefined) tire.archived = archived;
     if (wearKm !== undefined) tire.wearKm = wearKm;
     if (wearThresholdKm !== undefined) tire.wearThresholdKm = wearThresholdKm;
+    if (treadDepthMm !== undefined) tire.treadDepthMm = treadDepthMm;
 
     await tire.save();
     await checkTireMaintenance(tire);

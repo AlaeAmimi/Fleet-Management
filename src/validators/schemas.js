@@ -41,15 +41,20 @@ const updateTrailer = Joi.object({
 const createTire = Joi.object({
     serialNumber: Joi.string().trim().required(),
     brand: Joi.string().trim(),
-    position: Joi.string().trim(),
+    position: Joi.string().trim().required(),
+    wearKm: Joi.number().min(0),
+    wearThresholdKm: Joi.number().min(0),
+    treadDepthMm: Joi.number().min(0).required(),
 });
 
 const updateTire = Joi.object({
     brand: Joi.string().trim(),
     position: Joi.string().trim(),
     state: Joi.string().valid("new", "good", "worn", "to_replace"),
+    archived: Joi.boolean(),
     wearKm: Joi.number().min(0),
-    wearThresholdKm: Joi.number().min(1),
+    wearThresholdKm: Joi.number().min(0),
+    treadDepthMm: Joi.number().min(0),
 }).min(1);
 
 const assignTire = Joi.object({
