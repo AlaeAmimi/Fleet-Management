@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1792577595276" clover="3.2.0">
-  <project timestamp="1792577595276" name="All files">
-    <metrics statements="599" coveredstatements="78" conditionals="263" coveredconditionals="39" methods="69" coveredmethods="12" elements="931" coveredelements="129" complexity="0" loc="599" ncloc="599" packages="9" files="40" classes="40"/>
+<coverage generated="1792755088238" clover="3.2.0">
+  <project timestamp="1792755088239" name="All files">
+    <metrics statements="609" coveredstatements="502" conditionals="263" coveredconditionals="187" methods="69" coveredmethods="51" elements="941" coveredelements="740" complexity="0" loc="609" ncloc="609" packages="9" files="40" classes="40"/>
     <package name="src">
-      <metrics statements="36" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="38" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="app.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\app.js">
-        <metrics statements="36" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
+        <metrics statements="38" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="100" type="stmt"/>
+        <line num="21" count="100" type="stmt"/>
+        <line num="22" count="100" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="43" count="8" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="46" count="8" type="stmt"/>
+        <line num="48" count="8" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="52" count="8" type="stmt"/>
+        <line num="54" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.config">
@@ -68,14 +70,14 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="270" coveredstatements="0" conditionals="186" coveredconditionals="0" methods="30" coveredmethods="0"/>
+      <metrics statements="270" coveredstatements="235" conditionals="186" coveredconditionals="124" methods="30" coveredmethods="26"/>
       <file name="analytics.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\analytics.controller.js">
-        <metrics statements="14" coveredstatements="0" conditionals="15" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
+        <metrics statements="14" coveredstatements="6" conditionals="15" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="15" count="0" type="cond" truecount="0" falsecount="6"/>
@@ -84,218 +86,218 @@
         <line num="19" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
       </file>
       <file name="auth.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\auth.controller.js">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
       </file>
       <file name="maintenance.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\maintenance.controller.js">
-        <metrics statements="28" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
+        <metrics statements="28" coveredstatements="28" conditionals="14" coveredconditionals="12" methods="4" coveredmethods="4"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="36" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="59" count="8" type="stmt"/>
       </file>
       <file name="tire.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\tire.controller.js">
-        <metrics statements="46" coveredstatements="0" conditionals="30" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+        <metrics statements="46" coveredstatements="45" conditionals="30" coveredconditionals="20" methods="5" coveredmethods="5"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="68" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="69" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="74" count="0" type="stmt"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="82" count="0" type="stmt"/>
-        <line num="83" count="0" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="88" count="0" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="73" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="78" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="88" count="8" type="stmt"/>
       </file>
       <file name="trailer.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\trailer.controller.js">
-        <metrics statements="34" coveredstatements="0" conditionals="18" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="6" count="0" type="cond" truecount="0" falsecount="4"/>
+        <metrics statements="34" coveredstatements="33" conditionals="18" coveredconditionals="14" methods="5" coveredmethods="5"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="3" falsecount="1"/>
         <line num="7" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="74" count="0" type="stmt"/>
-        <line num="75" count="0" type="stmt"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="53" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="60" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="70" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="80" count="8" type="stmt"/>
       </file>
       <file name="trip.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\trip.controller.js">
-        <metrics statements="95" coveredstatements="0" conditionals="78" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="cond" truecount="0" falsecount="10"/>
+        <metrics statements="95" coveredstatements="75" conditionals="78" coveredconditionals="54" methods="6" coveredmethods="4"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="17" count="9" type="cond" truecount="9" falsecount="1"/>
         <line num="18" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="25" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="50" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="51" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
-        <line num="75" count="0" type="stmt"/>
-        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="82" count="0" type="stmt"/>
-        <line num="87" count="0" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="57" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="78" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
         <line num="91" count="0" type="stmt"/>
         <line num="96" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="97" count="0" type="stmt"/>
         <line num="101" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="102" count="0" type="stmt"/>
         <line num="105" count="0" type="stmt"/>
-        <line num="108" count="0" type="stmt"/>
-        <line num="114" count="0" type="stmt"/>
-        <line num="116" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="108" count="8" type="stmt"/>
+        <line num="114" count="4" type="stmt"/>
+        <line num="116" count="4" type="cond" truecount="1" falsecount="1"/>
         <line num="117" count="0" type="stmt"/>
-        <line num="120" count="0" type="stmt"/>
-        <line num="121" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="122" count="0" type="stmt"/>
-        <line num="126" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="127" count="0" type="stmt"/>
-        <line num="130" count="0" type="stmt"/>
-        <line num="131" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="132" count="0" type="stmt"/>
-        <line num="138" count="0" type="stmt"/>
-        <line num="139" count="0" type="stmt"/>
-        <line num="141" count="0" type="stmt"/>
-        <line num="145" count="0" type="stmt"/>
-        <line num="147" count="0" type="stmt"/>
-        <line num="148" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="149" count="0" type="stmt"/>
-        <line num="152" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="153" count="0" type="stmt"/>
-        <line num="158" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="162" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="163" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="164" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="165" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="167" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="168" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="169" count="0" type="stmt"/>
-        <line num="176" count="0" type="stmt"/>
-        <line num="177" count="0" type="stmt"/>
-        <line num="178" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="179" count="0" type="stmt"/>
-        <line num="180" count="0" type="stmt"/>
-        <line num="181" count="0" type="stmt"/>
-        <line num="185" count="0" type="stmt"/>
-        <line num="187" count="0" type="stmt"/>
+        <line num="120" count="4" type="stmt"/>
+        <line num="121" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="126" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="130" count="2" type="stmt"/>
+        <line num="131" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="139" count="1" type="stmt"/>
+        <line num="141" count="1" type="stmt"/>
+        <line num="145" count="4" type="stmt"/>
+        <line num="147" count="4" type="stmt"/>
+        <line num="148" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="149" count="1" type="stmt"/>
+        <line num="152" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="153" count="1" type="stmt"/>
+        <line num="158" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="162" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="163" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="164" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="165" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="167" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="168" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="169" count="1" type="stmt"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="177" count="1" type="stmt"/>
+        <line num="178" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="179" count="1" type="stmt"/>
+        <line num="180" count="1" type="stmt"/>
+        <line num="181" count="1" type="stmt"/>
+        <line num="185" count="1" type="stmt"/>
+        <line num="187" count="1" type="stmt"/>
         <line num="190" count="0" type="stmt"/>
         <line num="195" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="196" count="0" type="stmt"/>
@@ -307,107 +309,107 @@
         <line num="210" count="0" type="stmt"/>
         <line num="211" count="0" type="stmt"/>
         <line num="212" count="0" type="stmt"/>
-        <line num="215" count="0" type="stmt"/>
+        <line num="215" count="8" type="stmt"/>
       </file>
       <file name="truck.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\truck.controller.js">
-        <metrics statements="36" coveredstatements="0" conditionals="23" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="6" count="0" type="cond" truecount="0" falsecount="5"/>
+        <metrics statements="36" coveredstatements="35" conditionals="23" coveredconditionals="17" methods="5" coveredmethods="5"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="4" falsecount="1"/>
         <line num="7" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="75" count="0" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="81" count="0" type="stmt"/>
-        <line num="84" count="0" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="63" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="74" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="84" count="8" type="stmt"/>
       </file>
       <file name="user.controller.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\controllers\user.controller.js">
-        <metrics statements="12" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="7" count="0" type="cond" truecount="0" falsecount="6"/>
+        <metrics statements="12" coveredstatements="11" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="5" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
-      <metrics statements="58" coveredstatements="0" conditionals="29" coveredconditionals="0" methods="12" coveredmethods="0"/>
+      <metrics statements="58" coveredstatements="39" conditionals="29" coveredconditionals="24" methods="12" coveredmethods="8"/>
       <file name="auth.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\middlewares\auth.js">
-        <metrics statements="22" coveredstatements="0" conditionals="13" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="15" count="0" type="cond" truecount="0" falsecount="5"/>
+        <metrics statements="22" coveredstatements="16" conditionals="13" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="4" count="96" type="stmt"/>
+        <line num="6" count="96" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="13" count="89" type="stmt"/>
+        <line num="15" count="89" type="cond" truecount="4" falsecount="1"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
+        <line num="22" count="89" type="stmt"/>
+        <line num="24" count="89" type="stmt"/>
+        <line num="25" count="89" type="stmt"/>
+        <line num="26" count="89" type="stmt"/>
+        <line num="27" count="89" type="stmt"/>
         <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="30" count="0" type="stmt"/>
         <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="36" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
+        <line num="49" count="152" type="stmt"/>
+        <line num="50" count="67" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="14" type="stmt"/>
+        <line num="56" count="53" type="stmt"/>
+        <line num="60" count="8" type="stmt"/>
       </file>
       <file name="errorHandler.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\middlewares\errorHandler.js">
-        <metrics statements="15" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="15" coveredstatements="15" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
       </file>
       <file name="rateLimit.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\middlewares\rateLimit.js">
         <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
@@ -426,189 +428,197 @@
         <line num="37" count="0" type="stmt"/>
       </file>
       <file name="validate.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\middlewares\validate.js">
-        <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="2" count="104" type="stmt"/>
+        <line num="3" count="50" type="stmt"/>
+        <line num="8" count="50" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="15" type="stmt"/>
+        <line num="12" count="28" type="stmt"/>
+        <line num="16" count="35" type="stmt"/>
+        <line num="17" count="35" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.models">
-      <metrics statements="24" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Alert.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\Alert.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
       </file>
       <file name="Counter.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\Counter.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
       </file>
       <file name="MaintenanceRule.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\MaintenanceRule.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
       </file>
       <file name="Tire.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\Tire.js">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
       </file>
       <file name="Trailer.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\Trailer.js">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
       </file>
       <file name="Trip.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\Trip.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
       </file>
       <file name="Truck.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\Truck.js">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
       </file>
       <file name="User.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\models\User.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.routes">
-      <metrics statements="72" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="80" coveredstatements="80" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="analytics.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\analytics.routes.js">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
       </file>
       <file name="auth.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\auth.routes.js">
-        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
       </file>
       <file name="maintenance.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\maintenance.routes.js">
-        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
       </file>
       <file name="tire.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\tire.routes.js">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
       </file>
       <file name="trailer.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\trailer.routes.js">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
       </file>
       <file name="trip.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\trip.routes.js">
-        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
       </file>
       <file name="truck.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\truck.routes.js">
-        <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
       </file>
       <file name="user.routes.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\routes\user.routes.js">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.services">
-      <metrics statements="106" coveredstatements="60" conditionals="48" coveredconditionals="39" methods="19" coveredmethods="11"/>
+      <metrics statements="106" coveredstatements="67" conditionals="48" coveredconditionals="39" methods="19" coveredmethods="13"/>
       <file name="analytics.service.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\services\analytics.service.js">
-        <metrics statements="11" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
+        <metrics statements="11" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
         <line num="90" count="0" type="stmt"/>
         <line num="98" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="99" count="0" type="stmt"/>
         <line num="100" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="101" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="104" count="0" type="stmt"/>
-        <line num="142" count="0" type="stmt"/>
+        <line num="142" count="8" type="stmt"/>
       </file>
       <file name="auth.service.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\services\auth.service.js">
         <metrics statements="17" coveredstatements="17" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="15" count="6" type="cond" truecount="4" falsecount="0"/>
         <line num="16" count="2" type="stmt"/>
@@ -621,11 +631,11 @@
         <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="30" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
       </file>
       <file name="availability.service.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\services\availability.service.js">
         <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="8" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
         <line num="10" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="11" count="1" type="stmt"/>
@@ -636,12 +646,12 @@
         <line num="20" count="4" type="stmt"/>
         <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="23" count="3" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
       </file>
       <file name="maintenance.service.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\services\maintenance.service.js">
         <metrics statements="16" coveredstatements="16" conditionals="14" coveredconditionals="14" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
         <line num="13" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="14" count="5" type="stmt"/>
@@ -655,11 +665,11 @@
         <line num="34" count="3" type="stmt"/>
         <line num="45" count="2" type="stmt"/>
         <line num="46" count="2" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
       </file>
       <file name="pdf.service.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\services\pdf.service.js">
-        <metrics statements="35" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="35" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -693,15 +703,15 @@
         <line num="44" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
+        <line num="51" count="8" type="stmt"/>
       </file>
       <file name="reference.service.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\services\reference.service.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="8" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
         <line num="6" count="4" type="stmt"/>
         <line num="12" count="4" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
       </file>
       <file name="trip.service.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\services\trip.service.js">
         <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
@@ -723,29 +733,29 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="9" type="stmt"/>
         <line num="4" count="9" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
       </file>
     </package>
     <package name="src.validators">
-      <metrics statements="16" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="schemas.js" path="C:\Users\Youcode\Documents\briefs\fleet-management\src\validators\schemas.js">
-        <metrics statements="16" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="75" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="86" count="0" type="stmt"/>
-        <line num="91" count="0" type="stmt"/>
+        <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="60" count="8" type="stmt"/>
+        <line num="64" count="8" type="stmt"/>
+        <line num="75" count="8" type="stmt"/>
+        <line num="79" count="8" type="stmt"/>
+        <line num="86" count="8" type="stmt"/>
+        <line num="91" count="8" type="stmt"/>
       </file>
     </package>
   </project>
